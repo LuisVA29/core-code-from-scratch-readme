@@ -1,4 +1,4 @@
-## Algoritmo para la preparación de una pizza:
+# 1. Algoritmo para la preparación de una pizza:
 
 ## Elementos de entrada:
 
@@ -29,3 +29,7 @@
 15.	Cortar los trozos de pizza que desee
 16.	Servir en un plato
 17.	Fin
+
+
+# 2. Algoritmo para convertir grados Celsius a Fahrenheit y viceversa
+##
