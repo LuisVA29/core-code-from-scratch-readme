@@ -32,4 +32,33 @@
 
 
 # 2. Algoritmo para convertir grados Celsius a Fahrenheit y viceversa
-##
+1.	Inicio
+2.	Pedir la temperatura y llamarla x
+3.	Definir “y”
+4.	Definir “z”
+5.	Preguntar si la temperatura es en grados Celsius
+6.	Si la temperatura esta en grados Celsius: <br>
+   6.1	realizar operación y = (x* 9/5) + 32 <br>
+   6.2	Imprimir “y”<br>
+7.	Si no son grados Celsius: <br>
+   7.1	Realizar operación z = (x – 32) * 5/9 <br>
+   7.2	Imprimir “z” <br>
+8.	Fin 
+
+# 3. Algoritmo para calcular el volumen  de una pirámide, un cubo y una esfera
+1. Preguntar qué volumen se necesita (cubo, pirámide o esfera)
+2. Si necesitamos un cubo, entonces:<br>
+   2.1 Preguntar la longitud de un lado <br>
+   2.2 Realizar operación volumen = lado^3 <br>
+   2.3 Imprimir "volumen" <br>
+3. Si necesitamos una esfera entonces: <br>
+   3.1 Pedir la longitud del radio <br>
+   3.2 Realizar operación volumen = 4/3 * pi * r^3 <br>
+   3.3 Imprimir "volumen" <br>
+4. Si se trata de una pirámide <br>
+   4.1 Pedir el largo de la base y definir como "largo" <br>
+   4.2 Pedir el ancho de la base y definir como "ancho"  <br>
+   4.3 Pedir la altura y definir como "altura"  <br>
+   4.4 Realizar operación volumen = 1/3 * largo * ancho * altura <br>
+   4.5 Imprimir "volumen" <br> 
+5. End
