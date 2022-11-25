@@ -79,3 +79,17 @@
 8.	Fin
 
 ![image](https://user-images.githubusercontent.com/66539558/203880476-cee708e8-ad27-4591-8144-1f2d154b00ab.png)
+## 2. Algoritmo para calcular la edad de una persona usando su fecha de nacimiento
+   1.	Inicio
+2.	Pedir Año de nacimiento
+3.	Guardad en “a”
+4.	Pedir el año en que se encuentra
+5.	Guardar en “b”
+6.	Definir x
+7.	Realizar operación x = b – a
+8.	Imprimir “Usted tiene ”+ variable “x”
+## 3. ¿Cuál de los cofres tiene el tesoro?
+•	Cofre de la izquierda: dice que el cofre del medio tiene el tesoro, por lo tanto, el del medio no lo tiene.<br> 
+•	Cofre del medio: dice que todos tienen un tesoro dentro, por lo tanto, esta diciendo que ningún cofre tiene un tesoro.<br> 
+•	Cofre de la derecha: dice que solo uno tiene tesoros, por lo tanto, solamente hay dos cofres que tienen tesoros. <br> 
+➡️Los cofres que tienen tesoros son el de la izquierda y la derecha, ya que anteriormente se confirmó que el del medio no tenía.⬅️
