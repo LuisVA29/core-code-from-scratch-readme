@@ -1,6 +1,7 @@
-# 1. Algoritmo para la preparación de una pizza:
+# Miércoles 23 de noviembre
+## 1. Algoritmo para la preparación de una pizza:
 
-## Elementos de entrada:
+### Elementos de entrada:
 
 1.	Agua caliente
 2.	Levadura seca activa
@@ -11,7 +12,7 @@
 7.	Queso mozzarella 
 8.	Salsa de tomate
 9.	Pepperoni 
-## Proceso:
+### Proceso:
 1.	Inicio
 2.	Colocar 1 taza y media en un bowl y agregar 2 cucharaditas de levadura y dejar reposar 5 min
 3.	Luego de los 5 min, agregar 3 tazas y ¾ de harina, 2 cucharaditas de sal, 1 cucharadita de azúcar y 2 cucharadas de aceite de oliva y mezclar durante 1 minuto.
@@ -31,7 +32,7 @@
 17.	Fin
 
 
-# 2. Algoritmo para convertir grados Celsius a Fahrenheit y viceversa
+## 2. Algoritmo para convertir grados Celsius a Fahrenheit y viceversa
 1.	Inicio
 2.	Pedir la temperatura y llamarla x
 3.	Definir “y”
@@ -45,7 +46,7 @@
    7.2	Imprimir “z” <br>
 8.	Fin 
 
-# 3. Algoritmo para calcular el volumen  de una pirámide, un cubo y una esfera
+## 3. Algoritmo para calcular el volumen  de una pirámide, un cubo y una esfera
 1. Preguntar qué volumen se necesita (cubo, pirámide o esfera)
 2. Si necesitamos un cubo, entonces:<br>
    2.1 Preguntar la longitud de un lado <br>
@@ -62,3 +63,19 @@
    4.4 Realizar operación volumen = 1/3 * largo * ancho * altura <br>
    4.5 Imprimir "volumen" <br> 
 5. End
+
+# Jueves 24 de noviembre
+
+## 1. Algoritmo para comprobar si un número es par o impar
+1.	Inicio
+2.	Pedir numero
+3.	Guardar numero en la variable “y”
+4.	Definir x
+5.	Realizar operación x = y/2
+6.	Si el resultado es divisible dentro de 2<br>
+6.1	Imprimir “El numero ingresado es un número par”<br>
+7.	Si no,<br>
+7.1	Imprimir “El numero ingresado es un numero impar”<br>
+8.	Fin
+
+![image](https://user-images.githubusercontent.com/66539558/203880476-cee708e8-ad27-4591-8144-1f2d154b00ab.png)
