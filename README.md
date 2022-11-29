@@ -115,5 +115,6 @@ b.	Verter la leche dentro del plato hondo <br>
 c.	Tomar la caja de cereal y servirlo sobre el plato con leche. <br> 
 6.	Fin
 
-![Cereal or Milk](https://user-images.githubusercontent.com/66539558/204418649-061552fe-755d-49e1-a33e-8b02a1e16eda.png)
+![Cereal or Milk](https://user-images.githubusercontent.com/66539558/204419173-0911a232-02cf-4eb0-a0c5-9fdfa2368e03.png)
+
 
