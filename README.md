@@ -93,3 +93,27 @@
 •	Cofre del medio: dice que todos tienen un tesoro dentro, por lo tanto, esta diciendo que ningún cofre tiene un tesoro.<br> 
 •	Cofre de la derecha: dice que solo uno tiene tesoros, por lo tanto, solamente hay dos cofres que tienen tesoros. <br> 
 ➡️Los cofres que tienen tesoros son el de la izquierda y la derecha, ya que anteriormente se confirmó que el del medio no tenía.⬅️
+# Lunes 28 de noviembre
+## 1. Problema lógico
+•	Alice: dice que nadie estudió para el examen, entonces si nadie estudió ella tampoco lo hizo y es una contradicción. <br> 
+•	Bob: dice que solo una persona estudió, no existe contradicción ya que esa persona es él. <br> 
+•	Charlie: dice que dos personas estudiaron, es verdad ya que las personas que estudiaron son él y bob, pero no pueden existir dos verdades al mismo tiempo. <br> 
+•	Dan: dice que tres personas estudiaron, pasa lo mismo que con Charlie. <br> 
+•	Eva: dice que cuatro personas estudiaron, pasa lo mismo que con Charlie. <br> 
+## 2. ¿Cuál va primero, cereal o leche? 
+1.	Inicio
+2.	Tomar un plato hondo de la alacena
+3.	Tomar una cuchara del cajón
+4.	Sacar la leche del refrigerador
+5.	Preguntar si desea la leche caliente o fría:
+1.	Si desea la leche fría:  <br> 
+a.	Tomar la caja del cereal y servirlo en el plato hondo <br> 
+b.	Verter la leche en el plato de cereal <br> 
+2.	Si desea la leche caliente: <br> 
+a.	Calentar la leche utilizando un horno microondas o una estufa <br> 
+b.	Verter la leche dentro del plato hondo <br> 
+c.	Tomar la caja de cereal y servirlo sobre el plato con leche. <br> 
+6.	Fin
+
+![Cereal or Milk](https://user-images.githubusercontent.com/66539558/204418649-061552fe-755d-49e1-a33e-8b02a1e16eda.png)
+
