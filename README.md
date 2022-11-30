@@ -116,5 +116,18 @@ c.	Tomar la caja de cereal y servirlo sobre el plato con leche. <br>
 6.	Fin
 
 ![Cereal or Milk](https://user-images.githubusercontent.com/66539558/204419173-0911a232-02cf-4eb0-a0c5-9fdfa2368e03.png)
+# Martes 29 de noviembre 
 
-
+## 1. Print my name
+```
+Algoritmo myName
+	Imprimir 'Mi nombre es Luis Velasquez'
+FinAlgoritmo
+```
+## 2. Print my name & age
+```
+Algoritmo myName
+	Imprimir 'Mi nombre es Luis Velasquez'
+	Imprimir 20
+FinAlgoritmo
+```
