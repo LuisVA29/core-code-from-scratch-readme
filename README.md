@@ -131,3 +131,42 @@ Algoritmo myName
 	Imprimir 20
 FinAlgoritmo
 ```
+# Miércoles 30 de noviembre
+
+## 1. Algorithm game
+![GAME COMPLETE](https://user-images.githubusercontent.com/66539558/204934285-9f66938e-7791-4a84-bb5b-601b39a52692.png)
+## 2. Mod in PSeInt Challenge
+```
+Algoritmo EvenorOdd
+	Escribir "Ingrese número"
+	Leer num
+	operacion1 = num % 2
+	si	operacion1 = 0 Entonces
+		Escribir "0"
+	SiNo
+		Escribir "1"
+	FinSi
+	
+FinAlgoritmo
+```
+## 3. Register Form
+```
+Algoritmo userform
+	Escribir "======= USER FORM ======="
+	Escribir "First name"
+	Leer first
+	Escribir "Last name"
+	Leer last
+	Escribir "Age"
+	Leer age
+	Escribir "e-mail"
+	Leer email
+	Escribir "Address"
+	Leer address
+	Imprimir "Your name is: ", first, " ", last
+	Imprimir "Your age is: ", age
+	Imprimir "Your e-mail address is: ",email
+	Imprimir "Your address is: ", address
+	Imprimir "Thank you for filling out the form!"
+FinAlgoritmo
+```
