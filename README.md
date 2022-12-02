@@ -119,13 +119,13 @@ c.	Tomar la caja de cereal y servirlo sobre el plato con leche. <br>
 # Martes 29 de noviembre 
 
 ## 1. Print my name
-```
+```python
 Algoritmo myName
 	Imprimir 'Mi nombre es Luis Velasquez'
 FinAlgoritmo
 ```
 ## 2. Print my name & age
-```
+```python
 Algoritmo myName
 	Imprimir 'Mi nombre es Luis Velasquez'
 	Imprimir 20
@@ -136,7 +136,7 @@ FinAlgoritmo
 ## 1. Algorithm game
 ![GAME COMPLETE](https://user-images.githubusercontent.com/66539558/204934285-9f66938e-7791-4a84-bb5b-601b39a52692.png)
 ## 2. Mod in PSeInt Challenge
-```
+```python
 Algoritmo EvenorOdd
 	Escribir "Ingrese número"
 	Leer num
@@ -150,7 +150,7 @@ Algoritmo EvenorOdd
 FinAlgoritmo
 ```
 ## 3. Register Form
-```
+```python
 Algoritmo userform
 	Escribir "======= USER FORM ======="
 	Escribir "First name"
@@ -168,5 +168,53 @@ Algoritmo userform
 	Imprimir "Your e-mail address is: ",email
 	Imprimir "Your address is: ", address
 	Imprimir "Thank you for filling out the form!"
+FinAlgoritmo
+```
+# Jueves 1 de diciembre
+## Truth tables
+1.	✅
+2.	✅
+3.	❌
+4.	✅
+5.	✅
+6.	❌
+7.	✅
+8.	✅
+9.	❌
+10.	✅
+11.	✅
+12.	❌
+13.	✅
+14.	✅
+## 2. Boolean Results
+
+```python
+Algoritmo boolean
+	a <- 5 == 3
+	// FALSE, because 5 is not equal to 3
+	b <- 4 <> 3
+	// TRUE, because 4 is different from 3
+	c <- 7 > 7
+	// FALSE, because 7 is not greater than 7.
+	d <- 4 < 4
+	// FALSE, because 4 is not less than 4.
+	e <- 100 <= 90
+	// FALSE, 100 is not less or equal to 90
+	f <- 40 >= 40
+	// TRUE, 40 is equal to 40
+FinAlgoritmo
+```
+## 3. 
+```python
+Algoritmo EvenorOdd
+	Escribir "Ingrese número"
+	Leer num
+	operacion1 = num % 2
+	si	operacion1 = 0 Entonces
+		Escribir "Número ", num, " es par"
+	SiNo
+		Escribir "Número ", num, " es impar"
+	FinSi
+	
 FinAlgoritmo
 ```
