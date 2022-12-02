@@ -204,7 +204,7 @@ Algoritmo boolean
 	// TRUE, 40 is equal to 40
 FinAlgoritmo
 ```
-## 3. 
+## 3. Identify odd and even numbers
 ```python
 Algoritmo EvenorOdd
 	Escribir "Ingrese número"
