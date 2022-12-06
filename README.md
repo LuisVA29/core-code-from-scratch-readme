@@ -218,3 +218,44 @@ Algoritmo EvenorOdd
 	
 FinAlgoritmo
 ```
+# Lunes 5 de diciembre
+## 1. Simple Calculator
+```python
+Algoritmo SimpleCalculator
+	Definir a, b Como Entero
+	Definir opc Como Caracter
+	Leer a,b
+	Imprimir "¿Qué operación desea realizar? (ingresar +, -, *, /)"
+	Imprimir "1. Suma ( + )"
+	Imprimir "2. Resta ( - )"
+	Imprimir "3. Multiplicación ( * )"
+	Imprimir "4. División ( / )"
+	Leer opc
+	si	opc = "+" Entonces
+		Imprimir "Realizando operación ", a, " + ",b
+		suma = a+b
+		Imprimir "El resultado de la suma es: ", suma
+		SiNo
+		Si	opc = "-" Entonces
+			Imprimir "Realizando operación ", a, " - ",b
+			resta = a-b
+			Imprimir "El resultado de la resta es: ", resta	
+		SiNo
+		Si	opc = "*"	Entonces
+			Imprimir "Realizando operación ", a, " * ",b
+			multi = a*b
+			Imprimir "El resultado de la multiplicación es: ", multi
+		SiNo
+			
+		Si	opc = "/"	Entonces
+			Imprimir "Realizando operación ", a, " / ",b
+			div = a/b
+			Imprimir "El resultado de la división es: ", div
+		SiNo
+			Imprimir "La operación no es válida️"
+		FinSi
+		FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
+```
