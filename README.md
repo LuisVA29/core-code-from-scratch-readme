@@ -222,7 +222,7 @@ FinAlgoritmo
 ## 1. Simple Calculator
 ```python
 Algoritmo SimpleCalculator
-	Definir a, b Como Entero
+	Definir a, b, suma, resta, multi, div Como Real
 	Definir opc Como Caracter
 	Leer a,b
 	Imprimir "¿Qué operación desea realizar? (ingresar +, -, *, /)"
@@ -252,11 +252,13 @@ Algoritmo SimpleCalculator
 			div = a/b
 			Imprimir "El resultado de la división es: ", div
 		SiNo
-			Imprimir "La operación no es válida️"
+			Imprimir "La operación no es válida?"
 		FinSi
 		FinSi
 		FinSi
 	FinSi
+FinAlgoritmo
+
 FinAlgoritmo
 ```
 ## 2. Special Number
