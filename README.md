@@ -259,3 +259,17 @@ Algoritmo SimpleCalculator
 	FinSi
 FinAlgoritmo
 ```
+## 2. Special Number
+```python
+Algoritmo SpecialNumber
+	Leer n
+	Si n = 100 Entonces
+		Imprimir 'This is a special number'
+	FinSi
+	Si (n % 10 == 0) & (n < 1000) & (n != 100) Entonces
+		Imprimir 'This is almost special'
+	SiNo
+		Imprimir 'Just a regular number'
+	FinSi
+FinAlgoritmo
+```
