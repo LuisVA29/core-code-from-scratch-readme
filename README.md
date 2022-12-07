@@ -275,3 +275,91 @@ Algoritmo SpecialNumber
 	FinSi
 FinAlgoritmo
 ```
+# Martes 6 de diciembre
+```python
+## 1. Simple calculator (with switch)
+Algoritmo SimpleCalculatorv2
+	Definir a, b, suma, resta, multi, div Como Real
+	Definir opc Como Caracter
+	Imprimir "====== Simple Calculator ======"
+	Leer a,b
+	Imprimir "¿Qué operación desea realizar? (ingresar +, -, *, /)"
+	Imprimir "1. Suma ( + )"
+	Imprimir "2. Resta ( - )"
+	Imprimir "3. Multiplicación ( * )"
+	Imprimir "4. División ( / )"
+	Leer opc
+	Segun opc Hacer
+		"+" : 
+			Imprimir "Realizando operación: ", a, " + ",b
+			suma = a+b
+			Imprimir "El resultado de la suma es: ", suma
+		"-" :
+			Imprimir "Realizando operación ", a, " - ",b
+			resta = a-b
+			Imprimir "El resultado de la resta es: ", resta
+		"*" :
+			Imprimir "Realizando operación ", a, " * ",b
+			multi = a*b
+			Imprimir "El resultado de la multiplicación es: ", multi
+		"/" :
+			si	b==0 Entonces
+				Imprimir "La operación no es válida."
+			SiNo
+				div = a/b
+				Imprimir "Realizando operación ", a, " / ",b
+				Imprimir "El resultado de la división es: ", div
+			FinSi
+		De Otro Modo:
+			Imprimir "La operación no es válida."
+	FinSegun
+FinAlgoritmo
+```
+##2. Multi Option Program
+```python
+Algoritmo MultiOptionP
+	Imprimir "========== Multi Opción =========="
+	Imprimir "Opciones disponibles: "
+	Imprimir "1. Sumar de dos numeros"
+	Imprimir "2. Imprimir dia de la semana"
+	Imprimir "3. Calcular longitud de texto"
+	Imprimir "Ingrese la opcion seleccionada:"
+	Leer opc
+	Segun opc Hacer
+		
+		1 :
+			Imprimir "Ingrese los números que desea sumar: "
+			Leer a,b
+			suma = a+b
+			Imprimir "La suma de los dos números es ", suma
+		2 :
+			Imprimir "Ingrese el número de la semana (del 1 al 7)"
+			Leer dia
+			Segun dia Hacer
+				1:
+					Imprimir "Domingo"
+				2:
+					Imprimir "Lunes"
+				3:
+					Imprimir "Martes"
+				4:
+					Imprimir "Miércoles"
+				5:
+					Imprimir "Jueves"
+				6:
+					Imprimir "Viernes"
+				7:
+					Imprimir "Sábado"
+				De Otro Modo:
+					Imprimir "El dato ingresado es inválido."
+			FinSegun
+		3 :
+			Imprimir "Ingrese el texto:"
+			Leer text
+			Imprimir "La longitud del texto es de: " Longitud(text)
+		De Otro Modo:
+			Imprimir "La opción no está disponible."
+	FinSegun
+	Imprimir "========== Fin =========="
+FinAlgoritmo
+```
