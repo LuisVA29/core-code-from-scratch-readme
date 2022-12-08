@@ -276,8 +276,8 @@ Algoritmo SpecialNumber
 FinAlgoritmo
 ```
 # Martes 6 de diciembre
-```python
 ## 1. Simple calculator (with switch)
+```python
 Algoritmo SimpleCalculatorv2
 	Definir a, b, suma, resta, multi, div Como Real
 	Definir opc Como Caracter
@@ -361,5 +361,67 @@ Algoritmo MultiOptionP
 			Imprimir "La opción no está disponible."
 	FinSegun
 	Imprimir "========== Fin =========="
+FinAlgoritmo
+```
+# Miércoles 7 de diciembre
+## 1. Multiplication tables
+```Python
+Algoritmo MultiplicationTables
+	Definir num, tabla Como Entero
+	
+	Escribir "========== Multiplication Tables =========="
+	Escribir "Ingrese la tabla a calcular:"
+	Leer tabla
+	num=1
+	Mientras num <= 10 Hacer
+		Escribir tabla, " * ", num, " = ", num*tabla
+		num = num+1
+	Fin Mientras
+FinAlgoritmo
+```
+## 2. Simple Calculator with Do While
+``` Python
+Algoritmo SimpleCalculatorv3
+	Definir a, b, suma, resta, multi, div Como Real
+	Definir opc Como Caracter
+	Repetir
+		Imprimir "============= Simple Calculator ============="
+		Leer a,b
+		Imprimir "¿Qué operación desea realizar? (ingresar +, -, *, /)"
+		Imprimir "1. Suma ( + )"
+		Imprimir "2. Resta ( - )"
+		Imprimir "3. Multiplicación ( * )"
+		Imprimir "4. División ( / )"
+		Leer opc
+		Segun opc Hacer
+			"+" : 
+				Imprimir "Realizando operación: ", a, " + ",b
+				suma = a+b
+				Imprimir "El resultado de la suma es: ", suma
+			"-" :
+				Imprimir "Realizando operación ", a, " - ",b
+				resta = a-b
+				Imprimir "El resultado de la resta es: ", resta
+			"*" :
+				Imprimir "Realizando operación ", a, " * ",b
+				multi = a*b
+				Imprimir "El resultado de la multiplicación es: ", multi
+			"/" :
+				si	b==0 Entonces
+					Imprimir "La operación no es válida."
+				SiNo
+					div = a/b
+					Imprimir "Realizando operación ", a, " / ",b
+					Imprimir "El resultado de la división es: ", div
+				FinSi
+			De Otro Modo:
+				Imprimir "La operación no es válida."
+		FinSegun
+		Imprimir "¿Desea realizar una nueva operación?"
+		Imprimir "1. SI"
+		Imprimir "2. NO"
+		Leer opc2
+	Hasta Que  opc2=2
+	Imprimir "==================== FIN ===================="
 FinAlgoritmo
 ```
