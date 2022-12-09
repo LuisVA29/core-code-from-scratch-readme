@@ -490,7 +490,7 @@ Algoritmo Greetings
 	opc= "Si"
 	saludos = 0
 	Mientras opc = "Si"  Hacer
-		Imprimir "Ingrese la hora actual"
+		Imprimir "Ingrese la hora actual (0-23):"
 		Leer hora
 		Si hora >=0 & hora<=12 Entonces
 			Imprimir "Buenos dias"
