@@ -425,3 +425,91 @@ Algoritmo SimpleCalculatorv3
 	Imprimir "==================== FIN ===================="
 FinAlgoritmo
 ```
+# Jueves 8 de diciembre
+## 1. Multiplication Tables with For
+```Python
+Algoritmo MultiplicationTablesv2
+	Definir num Como Entero
+	Repetir
+		Escribir "=========== Multiplication Tables ============"
+		Escribir "Ingrese la tabla a calcular"
+		Leer num
+		
+		Para i<-0 Hasta 10 Con Paso 1 Hacer
+			Escribir num, " * ", i, " = ", i*num
+		Fin Para
+		Escribir "¿Desea calcular otra tabla?"
+		Escribir "1. Si"
+		Escribir "2. No"
+		leer opc
+	Mientras Que opc = 1
+	Escribir "==================== Fin ====================="
+
+FinAlgoritmo
+```
+## 2. Ascending and Descending Numbers
+```Python
+Algoritmo AscendingandDescendingNumbers
+	Definir num Como Real
+	Repetir
+	Escribir "====== Ascending and Descending Numbers ======"
+	Escribir "Ingrese número"
+	Leer num
+	Escribir "Operaciones disponibles"
+	Escribir "1. Imprimir en orden ascendente"
+	Escribir "2. Imprimir en orden descendente"
+	Escribir "Ingrese operación a ejecutar"
+	Leer opc
+
+	Segun opc Hacer
+		1: 
+			Para i<-0 Hasta num Con Paso 1 Hacer
+				Imprimir i
+			Fin Para
+		2:
+			Para i<-num Hasta 0 Con Paso -1 Hacer
+				Imprimir i
+			Fin Para
+
+		De Otro Modo:
+			Imprimir "Opción errónea"
+	Fin Segun
+	Escribir "¿Desea ingresar otro número?"
+	Escribir "1. Si"
+	Escribir "2. No"
+	leer opc
+Mientras Que opc = 1
+Escribir "==================== Fin ====================="
+FinAlgoritmo
+```
+## 3. Greetings
+```Python
+Algoritmo Greetings
+	Definir saludos Como Entero
+	Imprimir "========== Cheers =========="
+	opc= "Si"
+	saludos = 0
+	Mientras opc = "Si"  Hacer
+		Imprimir "Ingrese la hora actual"
+		Leer hora
+		Si hora >=0 & hora<=12 Entonces
+			Imprimir "Buenos dias"
+		SiNo
+			Si hora >=13 & hora<=18 Entonces
+				Imprimir "Buenas tardes"
+			SiNo
+				Si hora >=19 & hora<=23 Entonces
+					Imprimir "Buenas noches"
+				SiNo
+					Imprimir "Dato incorrecto"
+				Fin Si
+			Fin Si
+		Fin Si
+		saludos<-saludos+1;
+		Imprimir "¿Desea continuar? Si/No"
+		Leer opc
+		
+	Fin Mientras
+	Escribir "Cantidad de saludos realizados: ",saludos
+FinAlgoritmo
+```
