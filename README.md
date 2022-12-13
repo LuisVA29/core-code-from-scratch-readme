@@ -513,3 +513,51 @@ Algoritmo Greetings
 	Escribir "Cantidad de saludos realizados: ",saludos
 FinAlgoritmo
 ```
+# Lunes 12 de diciembre
+## 1. Average sales and commission
+``` Python
+Algoritmo SalesandCommissions
+	Escribir "Write the total number of sales to enter:"
+	Leer sales
+	i=0
+	suma = 0
+	Para i<-1 Hasta sales Con Paso 1 Hacer
+		Escribir "Write the value of the sale number:", i
+		Leer value
+		suma= suma+value
+	Fin Para
+	Escribir "The average sales is $", suma/sales
+	Si sales>5 Entonces
+		Escribir 'The total amount of the sales is: ', suma
+		Escribir "The commission received by the seller is: $", suma*0.15
+	SiNo
+		Escribir "The commission received by the seller is: $", suma*0.10
+	Fin Si
+FinAlgoritmo
+```
+## 2. Even or Odd 
+``` Python
+Algoritmo EvenordOddv2
+	
+	Repetir
+		Escribir "Write a nunber between 1 and 50"
+		Leer data
+		operacion = data%2
+		Si data >= 1 & data <=50 Entonces
+			Si operacion=0 Entonces
+				Para secuencia<-0 Hasta data Con Paso 2 Hacer
+					Escribir secuencia
+				Fin Para
+			SiNo
+				Para secuencia<-1 Hasta data Con Paso 2 Hacer
+					Escribir secuencia
+				Fin Para
+			Fin Si
+			
+		SiNo
+			Escribir "Invalid number"
+		Fin Si
+	Mientras Que data>50 | data<=0
+
+FinAlgoritmo
+```
