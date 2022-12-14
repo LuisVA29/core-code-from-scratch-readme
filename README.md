@@ -561,3 +561,31 @@ Algoritmo EvenordOddv2
 
 FinAlgoritmo
 ```
+# Martes 13 de diciembre
+## 1. Full name
+``` Python
+Algoritmo FullName
+	Escribir "Write a name"
+	Leer first
+	Escribir "Write a last name"
+	Leer last
+	Dimension cadena1[2]
+	cadena1[0] = first
+	cadena1[1] = last
+	Imprimir Mayusculas(SubCadena(cadena1[0],0,0)), Minusculas(SubCadena(cadena1[0],1,999)), ' ',Mayusculas(SubCadena(cadena1[1],0,0)), Minusculas(SubCadena(cadena1[1],1,999))
+FinAlgoritmo
+```
+## 2. Throw dice 🎲 
+``` python
+Algoritmo ThrowDice
+	Para repetir1<-1 Hasta 10 Con Paso 1 Hacer
+		valor1 = Aleatorio(1,6)
+		valor2 = Aleatorio(1,6)
+		Si valor1 = valor2 Entonces
+			Escribir valor1, ' ', valor2, 'The dice are the same.'
+		SiNo
+			Escribir valor1, ' ', valor2
+		Fin Si
+	Fin Para
+FinAlgoritmo
+```
