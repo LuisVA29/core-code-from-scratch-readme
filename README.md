@@ -580,7 +580,7 @@ FinAlgoritmo
 Algoritmo ThrowDice
 	Para repetir1<-1 Hasta 10 Con Paso 1 Hacer
 		valor1 = Aleatorio(1,6)
-		valor2 = Aleatorio(1,6)
+		valor2 = Aleatorio(1,6) # me costo porque habia puesto los valores (valor1, valor2) fuera de la función "Para"😶‍🌫️
 		Si valor1 = valor2 Entonces
 			Escribir valor1, ' ', valor2, 'The dice are the same.'
 		SiNo
@@ -588,4 +588,57 @@ Algoritmo ThrowDice
 		Fin Si
 	Fin Para
 FinAlgoritmo
+```
+# Miércoles 14 de diciembre
+## 1. Distance to Zero
+``` Python
+Algoritmo DistanceToZero
+	Definir number1, number2 Como Real
+	Escribir 'Write a number'
+	Leer number1
+	Para repetir1<-1 Hasta 4 Con Paso 1 Hacer
+		Escribir 'Write a number'
+		Leer number2
+		Si abs(number1) < abs(number2) Entonces
+			number1 = number2
+		Fin Si
+	Fin Para
+	Imprimir 'The number that is farthest from zero is: ', trunc(number1)
+FinAlgoritmo
+# tuve que ver el video para encontrarle la logica porque no le entendi muy bien.
+# No caí en cuenta de que podía comparar 2 valores jajaj
+```
+## 2. Toss Coin
+``` python
+Algoritmo TossCoin
+	Escribir 'Enter the name of the first player'
+	Leer name1
+	Escribir 'Enter the amount to play'
+	Leer amount1
+	Escribir 'Enter the name of the second player'
+	Leer name2
+	Escribir 'Enter the amount to play'
+	Leer amount2
+	Si amount1<=0 & amount2<=0 Entonces
+		Escribir 'Game cancelled'
+	SiNo
+		Si amount1 <= 0 Entonces
+			Escribir 'Player: ',name1,' disqualified. ','Player ', Mayusculas(name2), ' won $',amount2
+		SiNo
+			Si amount2 <= 0 Entonces
+				Escribir 'Player: ',name2,' disqualified. ','Player ', Mayusculas(name1), ' won $',amount1
+			SiNo
+				Si amount1>0 & amount2>0 Entonces
+					Si Aleatorio(1,2) = 1 Entonces
+						Escribir 'Player wins ', Mayusculas(name1), ' amount won: ', amount2
+					SiNo
+						Escribir 'Player wins ', Mayusculas(name2), ' amount won: ', amount1
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
+# Fallé en el aleatorio(), porque en vez de poner 'Aleatorio(1,2)=1' puse 'Aleatorio (amount1, amount2)=amount1',
+# y lo que pasaba es que si lo repetia 10 veces, algunas veces solo salia el primer nombre. ☹️
 ```
