@@ -642,3 +642,48 @@ FinAlgoritmo
 # Fallé en el aleatorio(), porque en vez de poner 'Aleatorio(1,2)=1' puse 'Aleatorio (amount1, amount2)=amount1',
 # y lo que pasaba es que si lo repetia 10 veces, algunas veces solo salia el primer nombre. ☹️
 ```
+# Jueves 15 de diciembre
+## 1. Total Price
+``` Python
+Funcion operacion1 <- total (variable,iva)
+	operacion1 = variable*(iva/100)
+	SI variable > 3000 Entonces
+		operacion1 = (variable+operacion1)-((variable+operacion1)*0.10)
+	SiNo
+		operacion1 = variable + operacion1
+	FinSi
+Fin Funcion
+Algoritmo TotalPrice
+	Escribir  "Ingrese el valor del producto"
+	leer variable
+	Escribir  "Ingrese el IVA"
+	leer iva
+	Imprimir total(variable,iva)
+FinAlgoritmo
+#pensé que el usuario tenía que meter los datos 🥲 no me quedó igual a la solución.
+```
+## 2. Reverse Direction And Size🤯
+``` Python
+Funcion x <- ReverseDirectionAndSize ( palabra )
+	n = Longitud(palabra)
+	x =''
+	Mientras n>=0 Hacer
+		letter = Subcadena(palabra,n,n)
+		Si letter = Mayusculas(letter) Entonces
+			letter = Minusculas(letter)
+		SiNo
+			letter= Mayusculas(letter)
+		Fin Si
+		x = Concatenar(x,letter)
+		n= n-1
+	Fin Mientras
+Fin Funcion
+Algoritmo ReverseDirectionAndSize1
+	Imprimir 'Ingrese una palabra'
+	Leer palabra
+	Imprimir ReverseDirectionAndSize(palabra)
+FinAlgoritmo
+# Tuve que ver un vídeo en youtube para ver como invertir la palabra🥲
+# Luego tuve que ver la solución porque no sabía como alternar entre mayúscula y minúscula.😶‍🌫️
+# Este ejercicio fue muy complicado para mí.
+```
