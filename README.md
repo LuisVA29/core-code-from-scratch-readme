@@ -687,7 +687,7 @@ FinAlgoritmo
 # Luego tuve que ver la solución porque no sabía como alternar entre mayúscula y minúscula.😶‍🌫️
 # Este ejercicio fue muy complicado para mí.
 ```
-#Lunes 19 de diciembre
+# Lunes 19 de diciembre
 ## 1. Time Converter
 ```Python
 Funcion resultado = timeConverter (seg)
@@ -730,7 +730,7 @@ Algoritmo TimeConverterv1
 	Imprimir timeConverter(seg)
 FinAlgoritmo
 ```
-#2. Compare Distances
+## 2. Compare Distances
 ``` Python
 Funcion resultado <- CompareDistances ()
 	Definir number1, positive, negative Como Real
