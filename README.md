@@ -687,3 +687,68 @@ FinAlgoritmo
 # Luego tuve que ver la solución porque no sabía como alternar entre mayúscula y minúscula.😶‍🌫️
 # Este ejercicio fue muy complicado para mí.
 ```
+#Lunes 19 de diciembre
+## 1. Time Converter
+```Python
+Funcion resultado = timeConverter (seg)
+	Definir dia, hr, min Como Real
+	dia=0
+	hr=0
+	min=0
+	Si seg>= 86400 Entonces
+		dia = seg/86400
+		seg= seg% 86400
+		hr = seg/3600
+		seg= seg% 3600
+		min = seg/60
+		seg= seg % 60
+	Fin Si
+	Si seg>= 3600 Entonces
+			hr = seg/3600
+			seg= seg% 3600
+			min = seg/60
+			seg= seg % 60
+	FinSi
+	Si seg>= 60 Entonces
+				min = seg/60
+				seg= seg% 60
+			SiNo
+				seg=seg
+	Fin Si	
+	resultado = Concatenar('days: ', ConvertirATexto(trunc(dia)));
+	resultado = Concatenar(resultado, ', hours: ');
+	resultado = Concatenar(resultado, ConvertirATexto(trunc(hr)));
+	resultado = Concatenar(resultado, ', minutes: ');
+	resultado = Concatenar(resultado, ConvertirATexto(trunc(min)));
+	resultado = Concatenar(resultado, ', and seconds: ');
+	resultado = Concatenar(resultado, ConvertirATexto(trunc(seg)));
+Fin Funcion
+Algoritmo TimeConverterv1
+	Definir seg Como Entero
+	Imprimir 'Ingrese el tiempo en segundos'
+	Leer seg
+	Imprimir timeConverter(seg)
+FinAlgoritmo
+```
+#2. Compare Distances
+``` Python
+Funcion resultado <- CompareDistances ()
+	Definir number1, positive, negative Como Real
+	positive = 0
+	negative = 0	
+	Para repetir1<-1 Hasta 5 Con Paso 1 Hacer
+		Imprimir 'Write a number '
+		Leer number1
+		Si number1>= 0 Entonces
+			positive=positive+number1
+		SiNo
+			negative = negative+number1
+		Fin Si
+	Fin Para
+	resultado = positive> abs(negative)
+Fin Funcion
+
+Algoritmo exampleCompare_CompareDistances
+	Imprimir CompareDistances()
+FinAlgoritmo
+```
