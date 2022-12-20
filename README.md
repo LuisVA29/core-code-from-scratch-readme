@@ -748,7 +748,7 @@ Funcion resultado <- CompareDistances ()
 	resultado = positive> abs(negative)
 Fin Funcion
 
-Algoritmo exampleCompare_CompareDistances
+Algoritmo CompareDistancesv1
 	Imprimir CompareDistances()
 FinAlgoritmo
 ```
