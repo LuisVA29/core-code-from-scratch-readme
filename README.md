@@ -796,3 +796,63 @@ FinAlgoritmo
 # no entiendo porque hizo tanto procedimiento en el vídeo☹️
 ```
 # Miércoles 21 de diciembre
+## 1. Cashier
+``` Python
+Funcion resultado <- cashier ( )
+	resultado = 1000
+	Repetir
+		Imprimir 'Select an option:'
+		Imprimir 'a. Deposit'
+		Imprimir 'b. Withdraw'
+		Imprimir 'c. Go out'
+		Leer opcion1
+		Segun opcion1 Hacer
+			'a' | 'A':
+				Imprimir 'How much do you want to deposit: '
+				Leer deposit
+				resultado = resultado+deposit
+			'b' | 'B':
+				Imprimir 'How much do you want to withdraw: '
+				Leer withdraw
+				resultado = resultado-withdraw
+			'c' | 'C':
+			De Otro Modo:
+				Imprimir 'Incorrect option, try again'
+		Fin Segun
+	Hasta Que opcion1 = 'c' | opcion1 = 'C'
+Fin Funcion
+
+Algoritmo exampleCashier
+	Imprimir cashier()
+FinAlgoritmo
+```
+## 2. Weather Average
+``` Python
+Funcion resultado <- WeatherAverage ( )
+	operacion2 = 0
+	Repetir
+		Imprimir 'Select an option:'
+		Imprimir 'a. Enter degrees celsius'
+		Imprimir 'b. Enter degrees fahrenheit'
+		Imprimir 'x. Go out'
+		Leer opcion1
+		Segun opcion1 Hacer
+			'a' | 'A':
+				Leer celsius
+				operacion2 = operacion2+celsius
+			'b' | 'B':
+				Leer fare
+				operacion1 = (fare-32)* (5/9)
+				operacion2 = operacion2+operacion1
+			'x' | 'X':
+			De Otro Modo:
+				Imprimir 'Incorrect option, try again'
+		Fin Segun
+	Hasta Que opcion1 = 'x' | opcion1 = 'X'
+	resultado= ConvertirATexto(operacion2/2)
+Fin Funcion
+
+Algoritmo WeatherAveragev1
+	Imprimir WeatherAverage()
+FinAlgoritmo
+```
