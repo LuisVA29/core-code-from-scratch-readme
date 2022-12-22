@@ -752,3 +752,47 @@ Algoritmo CompareDistancesv1
 	Imprimir CompareDistances()
 FinAlgoritmo
 ```
+# Martes 20 de diciembre
+## 1. Sum of Pairs
+``` Python
+Funcion resultado <- sumOfPairs ( )
+	Imprimir 'Write a number between 1 and 100'
+	leer num1
+	operacion1 = num1 % 2
+	Si  num1 <=100 & num1 >=0 Entonces
+		si operacion1 = 0 Entonces
+			num1= num1
+		SiNo
+			num1 = 0
+		FinSi
+		Repetir
+			Imprimir 'Write a number between 1 and 100'
+			leer num2
+			operacion2 = num2 % 2
+			Si operacion2 = 0 & num2 <=100  & num2>=0 Entonces
+				num1 = num1 + num2
+			Fin Si
+		Mientras Que num2 <=100 & num2 >=0
+		resultado = Concatenar('The sum of all the even numbers entered is: ', ConvertirATexto(num1))
+	SiNo
+		num1= 0
+		resultado = Concatenar('The sum of all the even numbers entered is: ', ConvertirATexto(num1))
+	Fin Si
+Fin Funcion
+
+Algoritmo exampleSumOfPairs
+	Imprimir sumOfPairs()
+FinAlgoritmo
+```
+## 2. Mid-point 
+``` Python
+Funcion resultado <- midPoint (num1,num2)
+	resultado = (num1+num2)/2
+Fin Funcion
+
+Algoritmo exampleMidpPoint
+	Imprimir midPoint(40,-80)
+FinAlgoritmo
+# no entiendo porque hizo tanto procedimiento en el vídeo☹️
+```
+# Miércoles 21 de diciembre
