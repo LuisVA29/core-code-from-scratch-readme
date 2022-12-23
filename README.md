@@ -859,16 +859,19 @@ FinAlgoritmo
 # 22 de diciembre (JavaScript exercises)
 ## 1. 'IF' statement in JavaScript
 ``` Javascript
+num = 0
 if (num >=0) {
-  greeting = "Positive number";
-} else {
-  greeting = "Negative number";
+  console.log("Positive number");
+} 
+  else {
+  console.log("Negative number");
 }
 ```
 ## 2. 'WHILE' loop in JavaScript
 ``` Javascript 
+let i = 1
 while (i < 10) {
-  text = "The number is " + i;
+  console.log('The number is '+ i);
   i = i + 1;
 }
 ```
@@ -876,6 +879,6 @@ while (i < 10) {
 ``` Javascript 
 const n = 5;
 for (let i = 1; i <= n; i++) {
-    console.log(`I love JavaScript.`);
+    console.log('I love JavaScript.');
 }
 ```
