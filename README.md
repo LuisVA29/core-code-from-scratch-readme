@@ -884,29 +884,28 @@ for (let i = 1; i <= n; i++) {
 ```
 # 3 de enero de 2023
 ## Variables
-[Description] (https://www.jshero.net/en/koans/var.html)
+[Description](https://www.jshero.net/en/koans/var.html)
 ``` Javascript 
 let firstname = 'Lata';
 ```
 ## What is x?
-[Description] (https://www.jshero.net/en/koans/jsx01.html)
+[Description](https://www.jshero.net/en/koans/jsx01.html)
 ``` Javascript	
-
 // The value of x is 'Geeta'
 ```
 ## Several Variables
-[Description] (https://www.jshero.net/en/koans/var2.html)
+[Description](https://www.jshero.net/en/koans/var2.html)
 ``` Javascript
 let flower = 'rose';
 let tree = 'maple';
 ```
 ## Reassignment
-[Description] (https://www.jshero.net/en/koans/jsx02.html)
+[Description](https://www.jshero.net/en/koans/jsx02.html)
 ``` Javascript 
 // The value of x is 'Toe'
 ```
 ## Assign variables
-[Description] (https://www.jshero.net/en/koans/jsx03.html)
+[Description](https://www.jshero.net/en/koans/jsx03.html)
 ``` JavaScript 
 // The value of x is 'Hardy'
 ```
