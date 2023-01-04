@@ -882,3 +882,26 @@ for (let i = 1; i <= n; i++) {
     console.log('I love JavaScript.');
 }
 ```
+# 3 de enero de 2023
+## Variables
+``` Javascript 
+let firstname = 'Lata';
+```
+## What is x?
+``` Javascript	
+
+// The value of x is 'Geeta'
+```
+## Several Variables
+``` Javascript
+let flower = 'rose';
+let tree = 'maple';
+```
+## Reassignment
+``` Javascript 
+// The value of x is 'Toe'
+```
+## Assign variables
+``` JavaScript 
+// The value of x is 'Hardy'
+```
