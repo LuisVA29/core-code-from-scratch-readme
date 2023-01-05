@@ -909,3 +909,42 @@ let tree = 'maple';
 ``` JavaScript 
 // The value of x is 'Hardy'
 ```
+# 4 de enero de 2023
+## Functions
+[Description](https://www.jshero.net/en/koans/function.html)
+``` Javascript 
+function hello () {
+ return 'Hello world!';
+}
+```
+## Multiple Functions
+[Description](https://www.jshero.net/en/koans/function2.html)
+``` Javascript
+function a() {
+return 'Hello a!';
+}
+
+function b() {
+return 'Hello b!';
+}
+```
+## Function calls
+[Description](https://www.jshero.net/en/koans/functioncall.html)
+``` Javascript
+function greet(){
+return 'Haydo!';
+}
+let salutation = greet();
+```
+## What is x? (function version)
+[Description](https://www.jshero.net/en/koans/jsx04.html)
+``` Javascript
+// The value of x is 'Hi!'
+```
+## Parameters
+[Description](https://www.jshero.net/en/koans/parameter.html)
+``` Javascript
+function echo(value) {
+  return value;
+}
+```
