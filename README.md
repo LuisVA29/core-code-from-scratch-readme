@@ -986,3 +986,37 @@ let w2 = word2.toLowerCase()
 return w1.indexOf(w2)
 }
 ```
+# Lunes 9 de enero de 2023
+## String: substr()
+[Description](https://www.jshero.net/en/koans/stringsubstr.html)
+``` Javascript
+function firstWord(str) {
+  return str.substr(0, str.indexOf(" "));
+}
+```
+## String: replace()
+[Description](https://www.jshero.net/en/koans/replace.html)
+``` Javascript
+function normalize(date) {
+return date.replace(/-/g, '/')
+}
+```
+## Increment
+[Description](https://www.jshero.net/en/koans/increment.html)
+``` Javascript
+// The value of x is 7
+```
+## Fahrenheit 
+[Description](https://www.jshero.net/en/koans/fahrenheit.html)
+``` Javascript
+function toFahrenheit(celsius) {
+return solution = celsius * 1.8 + 32;
+}
+```
+## Boolean
+[Description](https://www.jshero.net/en/koans/bool.html)
+``` Javascript
+function nand(value1,value2){
+return !(value1 && value2)
+}
+```
