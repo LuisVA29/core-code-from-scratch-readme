@@ -986,37 +986,42 @@ let w2 = word2.toLowerCase()
 return w1.indexOf(w2)
 }
 ```
-# Lunes 9 de enero de 2023
-## String: substr()
-[Description](https://www.jshero.net/en/koans/stringsubstr.html)
-``` Javascript
-function firstWord(str) {
-  return str.substr(0, str.indexOf(" "));
+# Martes 10 de enero de 2023
+## Objects
+[Description](https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript)
+```Javascript 
+function animal(obj){
+  return 'This '+obj.color+' '+obj.name+' has '+obj.legs+" legs.";
 }
 ```
-## String: replace()
-[Description](https://www.jshero.net/en/koans/replace.html)
-``` Javascript
-function normalize(date) {
-return date.replace(/-/g, '/')
+## Return to sanity
+[Description](https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript)
+```JavaScript 
+function mystery() {
+  var results =
+    {sanity: 'Hello'};
+  return
+    results;
 }
 ```
-## Increment
-[Description](https://www.jshero.net/en/koans/increment.html)
-``` Javascript
-// The value of x is 7
+## Object syntax debug
+[Description](https://www.codewars.com/kata/56d8ae9237123036d3001b54/train/javascript)
+```JavaScript
+let rooms = {
+  first: {
+    description: 'This is the first room',
+    items: {
+      chair: 'The old chair looks comfortable',
+      lamp: 'This lamp looks ancient',
+ },
+    },
+  second: {
+    description: 'This is the second room',
+    items: {
+      couch: 'This couch looks like it would hurt your back',
+      table: 'On the table there is an unopened bottle of water',
+          },
+        },
+};
 ```
-## Fahrenheit 
-[Description](https://www.jshero.net/en/koans/fahrenheit.html)
-``` Javascript
-function toFahrenheit(celsius) {
-return solution = celsius * 1.8 + 32;
-}
-```
-## Boolean
-[Description](https://www.jshero.net/en/koans/bool.html)
-``` Javascript
-function nand(value1,value2){
-return !(value1 && value2)
-}
-```
+# Miércoles 11 de enero de 2023
