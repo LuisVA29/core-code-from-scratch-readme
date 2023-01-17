@@ -986,6 +986,40 @@ let w2 = word2.toLowerCase()
 return w1.indexOf(w2)
 }
 ```
+# Lunes 9 de enero de 2023
+## String: substr()
+[Description](https://www.jshero.net/en/koans/stringsubstr.html)
+``` Javascript
+function firstWord(str) {
+  return str.substr(0, str.indexOf(" "));
+}
+```
+## String: replace()
+[Description](https://www.jshero.net/en/koans/replace.html)
+``` Javascript
+function normalize(date) {
+return date.replace(/-/g, '/')
+}
+```
+## Increment
+[Description](https://www.jshero.net/en/koans/increment.html)
+``` Javascript
+// The value of x is 7.
+```
+## Fahrenheit
+[Description](https://www.jshero.net/en/koans/fahrenheit.html)
+``` Javascript
+function toFahrenheit(celsius) {
+return solution = celsius * 1.8 + 32;
+}
+```
+## Boolean
+[Description](https://www.jshero.net/en/koans/bool.html)
+``` Javascript
+function nand(value1,value2){
+return !(value1 && value2)
+}
+```
 # Martes 10 de enero de 2023
 ## Objects
 [Description](https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript)
@@ -1025,3 +1059,203 @@ let rooms = {
 };
 ```
 # Miércoles 11 de enero de 2023
+## Count strings in objects
+[Description](https://www.codewars.com/kata/565b3542af398bfb50000003/train/javascript)
+``` Javascript
+function strCount(obj) {
+    if (!obj) return 0;
+    let count = 0;
+    for (const value of Object.values(obj)) {
+        if (typeof value === 'string') {
+            count++;
+        } else if (Array.isArray(value)) {
+            count += countStringInArray(value);
+        } else if (typeof value === 'object') {
+            count += strCount(value);
+        }
+    }
+    return count;
+}
+
+function countStringInArray(arr) {
+    if (!arr) return 0;
+    let count = 0;
+    for (const item of arr) {
+        if (typeof item === 'string') {
+            count++;
+        } else if (Array.isArray(item)) {
+            count += countStringInArray(item);
+        } else if (typeof item === 'object') {
+            count += strCount(item);
+        }
+    }
+    return count;
+}
+console.log(strCount({
+  first: "1",
+  second: "2",
+  third: false,
+  fourth: [ "anytime",2,3,4,['a','b','c'] ],
+  fifth:  null
+}));
+```
+## Extending JavaScript Objects: Get First & Last Array Element
+[Description](https://www.codewars.com/kata/581351c40d8f13bc450008b8/train/javascript)
+``` Javascript
+Array.prototype.first = function() {
+    return this[0];
+};
+
+Array.prototype.last = function() {
+    return this[this.length - 1];
+};
+```
+## Object Oriented Piracy
+[Description](https://www.codewars.com/kata/54fe05c4762e2e3047000add/train/javascript)
+``` Javascript
+function Ship(draft, crew) {
+    this.draft = draft;
+    this.crew = crew;
+}
+
+Ship.prototype.isWorthIt = function() {
+    var totalWeight = this.draft;
+    var weightOfCrew = this.crew * 1.5;
+    var netWeight = totalWeight - weightOfCrew;
+    if (netWeight > 20) {
+        return true;
+    }
+    return false;
+}
+```
+# Jueves 12 de enero de 2023
+## Convert a String to a Number!
+[Description](https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript)
+``` Javascript
+const stringToNumber = function(str){
+  return Number(str)
+}
+```
+## Convert number to reversed array of digits
+[Description](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript)
+``` Javascript
+function digitize(n) {
+    return n.toString().split('').map(Number).reverse();
+}
+```
+## Truthy and Falsy
+[Description](https://www.codewars.com/kata/595c2988d946a13298000157/train/javascript)
+``` Javascript
+let truthy = [1, 'string', [], {}, true];
+let falsy = [0, '', null, undefined, false];
+```
+## Training JS #4: Basic data types--Array
+[Description](https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript)
+``` Javascript
+function getLength(arr) {
+  return arr.length;
+}
+
+function getFirst(arr) {
+  return arr[0];
+}
+
+function getLast(arr) {
+  return arr[arr.length-1];
+}
+
+function pushElement(arr, element) {
+  arr.push(element);
+  return arr;
+}
+
+function popElement(arr) {
+  arr.pop();
+  return arr;
+}
+```
+# Lunes 16 de enero de 2023
+## Training JS #7: if..else and ternary operator
+[Description](https://www.codewars.com/kata/57202aefe8d6c514300001fd/train/javascript)
+``` Javascript
+function saleHotdogs(n) {
+    if (n < 5) {
+        return n * 100;
+    } else if (n >= 5 && n < 10) {
+        return n * 95;
+    } else {
+        return n * 90;
+    }
+}
+```
+## Training JS #8: conditional statement--switch
+[Description](https://www.codewars.com/kata/572059afc2f4612825000d8a/train/javascript)
+``` Javascript
+function howManydays(month) {
+    switch (month) {
+        case 2:
+            return 28;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            return 30;
+        default:
+            return 31;
+    }
+}
+```
+## Basic calculator
+[Description](https://www.codewars.com/kata/5296455e4fe0cdf2e000059f/train/javascript)
+``` Javascript
+function calculate(num1, operator, num2) {
+    if (operator === "+") {
+        return num1 + num2;
+    } else if (operator === "-") {
+        return num1 - num2;
+    } else if (operator === "*") {
+        return num1 * num2;
+    } else if (operator === "/") {
+        if (num2 === 0) {
+            return null;
+        } else {
+            return num1 / num2;
+        }
+    } else {
+        return null;
+    }
+}
+```
+# Martes 17 de enero de 2023
+## Even or odd
+[Description](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript)
+``` Javascript
+function evenOrOdd(num) {
+    return num % 2 === 0 ? "Even" : "Odd";
+}
+```
+## A wolf in sheep's clothing
+[Description](https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript)
+``` Javascript
+function warnTheSheep(queue) {
+    if (queue[queue.length - 1] === "wolf") {
+        return "Pls go away and stop eating my sheep";
+    } else {
+        return `Oi! Sheep number ${queue.length - queue.indexOf("wolf") - 1}! You are about to be eaten by a wolf!`;
+    }
+}
+```
+## Decode the morse code
+[Description](https://www.codewars.com/kata/54b724efac3d5402db00065e/train/javascript)
+``` Javascript
+function decodeMorse(morseCode) {
+    let words = morseCode.trim().split('   ');
+    let decodedWords = words.map(word => {
+        let letters = word.split(' ');
+        let decodedLetters = letters.map(letter => MORSE_CODE[letter]).join('');
+        return decodedLetters;
+    });
+    return decodedWords.join(' ');
+}
+console.log(decodeMorse('.... . -.--   .--- ..- -.. .')); // "HEY JUDE"
+```
