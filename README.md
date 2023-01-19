@@ -1257,5 +1257,4 @@ function decodeMorse(morseCode) {
     });
     return decodedWords.join(' ');
 }
-console.log(decodeMorse('.... . -.--   .--- ..- -.. .')); // "HEY JUDE"
 ```
