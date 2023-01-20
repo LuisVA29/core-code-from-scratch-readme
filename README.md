@@ -1365,8 +1365,22 @@ function encryptThis(text) {
 
 ```
 ## Valid parentheses
-[Desciption]()
+[Desciption](https://www.codewars.com/kata/52774a314c2333f0a7000688/train/javascript)
 ``` Javascript
+
+function validParentheses(str) {
+  let stack = [];
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '(') {
+      stack.push(str[i]);
+    } else if (str[i] === ')' && stack.length > 0) {
+      stack.pop();
+    } else if (str[i] === ')' && stack.length === 0) {
+      return false;
+    }
+  }
+  return stack.length === 0;
+}
 
 ```
 ##Convert string to camel case
