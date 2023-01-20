@@ -1258,3 +1258,119 @@ function decodeMorse(morseCode) {
     return decodedWords.join(' ');
 }
 ```
+# Miércoles 18 de enero de 2023
+## Who likes it?
+[Desciption](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript)
+``` Javascript
+function likes(names) {
+  switch (names.length) {
+    case 0:
+      return "no one likes this";
+    case 1:
+      return `${names[0]} likes this`;
+    case 2:
+      return `${names[0]} and ${names[1]} like this`;
+    case 3:
+      return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+    default:
+      return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+  }
+}
+
+```
+## Bit counting
+[Desciption](https://www.codewars.com/kata/526571aae218b8ee490006f4/train/javascript)
+``` Javascript
+function countOnes(n) {
+  var binary = n.toString(2);
+  var count = 0;
+  for (var i = 0; i < binary.length; i++) {
+    if (binary[i] === '1') {
+      count++;
+    }
+  }
+  return count;
+}
+```
+## Your order, please
+[Desciption](https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/javascript)
+``` Javascript
+function order(sentence) {
+  if (!sentence) {
+    return "";
+  }
+  var words = sentence.split(" ");
+  var sortedWords = new Array(words.length);
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    var position = word.replace(/[^0-9]/g, "");
+    sortedWords[position - 1] = word;
+  }
+  return sortedWords.join(" ");
+}
+```
+# Jueves 19 de enero de 2023
+## Counting duplicates
+[Desciption](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/javascript)
+``` Javascript
+function duplicateCount(text) {
+  var lowerText = text.toLowerCase();
+  var charCounts = {};
+  var duplicates = 0;
+  for (var i = 0; i < lowerText.length; i++) {
+    var char = lowerText[i];
+    if (charCounts[char]) {
+      charCounts[char]++;
+    } else {
+      charCounts[char] = 1;
+    }
+  }
+  for (var char in charCounts) {
+    if (charCounts[char] > 1) {
+      duplicates++;
+    }
+  }
+  return duplicates;
+}
+```
+## Encrypt this!
+[Desciption](https://www.codewars.com/kata/5848565e273af816fb000449/train/javascript)
+``` Javascript
+function encryptThis(text) {
+    let words = text.split(" ");
+    let res = [];
+
+    for (let i of words) {
+        let newWord = "";
+        let temp = "";
+
+        for (let j = 0; j < i.length; j++) {
+            if (j === 0) {
+                newWord += i.charCodeAt(j);
+            } else if (j === 1) {
+                temp = i[j];
+                newWord += i[i.length - 1];
+            } else if (j === i.length - 1) {
+                newWord += temp;
+            } else {
+                newWord += i[j];
+            }
+        }
+
+        res.push(newWord);
+    }
+
+    return res.join(" ");
+}
+
+```
+## Valid parentheses
+[Desciption]()
+``` Javascript
+
+```
+##Convert string to camel case
+[Desciption]()
+``` Javascript
+
+```
