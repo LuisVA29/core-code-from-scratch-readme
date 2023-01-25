@@ -1383,8 +1383,125 @@ function validParentheses(str) {
 }
 
 ```
-##Convert string to camel case
-[Desciption]()
+## Convert string to camel case
+[Desciption](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript)
 ``` Javascript
+function toCamelCase(str) {
+let words = str.split(/[-_]/);
+let camelCase = words[0];
+for (let i = 1; i < words.length; i++) {
+let word = words[i];
+camelCase += word[0].toUpperCase() + word.slice(1);
+}
+return camelCase;
+}
+```
+# Lunes 23 de enero de 2023
+## "this" is a problem
+[Description](https://www.codewars.com/kata/547c71fdc5b2b38db1000098/train/javascript)
+``` Javascript
+function NameMe(first, last) {
+this.firstName = first;
+this.lastName = last;
+this.name = this.firstName + ' ' + this.lastName;
+}
 
+var n = new NameMe('John', 'Doe');
+n.firstName //Expected: John
+n.lastName //Expected: Doe
+n.name //Expected: John Doe
+```
+## Thinkful - List and Loop Drills: Lists of lists
+[Description](https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/javascript)
+``` Javascript
+function processData(data) {
+let product = 1;
+for (let i = 0; i < data.length; i++) {
+product *= data[i][0] - data[i][1];
+}
+return product;
+}
+
+console.log(processData([[2, 5], [3, 4], [8, 7]]));
+console.log(processData([[3, 2], [5, 4], [7, 6]]));
+console.log(processData([[10, 2], [3, 4], [8, 7]])); 
+```
+## Stop gninnipS My sdroW!
+[Description](https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript)
+``` Javascript
+function spinWords(str) {
+let words = str.split(" ");
+for (let i = 0; i < words.length; i++) {
+if (words[i].length >= 5) {
+words[i] = words[i].split("").reverse().join("");
+}
+}
+return words.join(" ");
+}
+
+console.log(spinWords("Hey fellow warriors")); // Output: "Hey wollef sroirraw"
+console.log(spinWords("This is a test")); // Output: "This is a test"
+console.log(spinWords("This is another test")); // Output: "This is rehtona test"
+```
+# Martes 24 de enero de 2023
+## "this" is an other problem
+[Description](https://www.codewars.com/kata/547f1a8d4a437abdf800055c/train/javascript)
+``` Javascript
+function NamedOne(first, last) {
+  let _firstName = first;
+  let _lastName = last;
+  let _fullName = first + ' ' + last;
+
+  Object.defineProperty(this, 'firstName', {
+    get: function() {
+      return _firstName;
+    },
+    set: function(value) {
+      _firstName = value;
+      _fullName = _firstName + ' ' + _lastName;
+    }
+  });
+
+  Object.defineProperty(this, 'lastName', {
+    get: function() {
+      return _lastName;
+    },
+    set: function(value) {
+      _lastName = value;
+      _fullName = _firstName + ' ' + _lastName;
+    }
+  });
+
+  Object.defineProperty(this, 'fullName', {
+    get: function() {
+      return _fullName;
+    },
+    set: function(value) {
+      if (value.split(' ').length === 2) {
+        _fullName = value;
+        var names = value.split(' ');
+        _firstName = names[0];
+        _lastName = names[1];
+      }
+    }
+  });
+}
+```
+## Who likes it?
+[Description](https://www.codewars.com/kata/5266876b8f4bf2da9b000362)
+``` Javascript
+function likes(names) {
+  return names.length === 0 ? "no one likes this" :
+         names.length === 1 ? `${names[0]} likes this` :
+         names.length === 2 ? `${names[0]} and ${names[1]} like this` :
+         names.length === 3 ? `${names[0]}, ${names[1]} and ${names[2]} like this` :
+         `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+}
+```
+## Convert string to camel case
+[Description](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript)
+``` Javascript
+function toCamelCase(str) {
+  return str.replace(/[-_](.)/g, (_, char) => char.toUpperCase());
+}
 ```
