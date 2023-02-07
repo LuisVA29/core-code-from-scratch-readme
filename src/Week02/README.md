@@ -1,3 +1,4 @@
+[Return](https://github.com/LuisVA29/core-code-from-scratch-readme)
 # Lunes 28 de noviembre
 ## 1. Problema lógico
 •	Alice: dice que nadie estudió para el examen, entonces si nadie estudió ella tampoco lo hizo y es una contradicción. <br> 
