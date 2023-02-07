@@ -1505,3 +1505,88 @@ function toCamelCase(str) {
   return str.replace(/[-_](.)/g, (_, char) => char.toUpperCase());
 }
 ```
+# Miércoles 25 de enero de 2023
+## Easy mathematical callback
+[Description](https://www.codewars.com/kata/54b7c8d2cd7f51a839000ebf)
+``` Javascript
+function processArray(array, callback) {
+  return array.map(callback);
+}
+
+// Test Cases
+
+// Test Case 1
+var myArray = [4, 8, 2, 7, 5];
+myArray = processArray(myArray,function (a) {
+  return a * 2;
+});
+console.log(myArray); // Output: [ 8, 16, 4, 14, 10 ]
+
+// Test Case 2
+var myArray = [7, 8, 9, 1, 2];
+myArray = processArray(myArray, function (a) {
+  return a + 5;
+});
+console.log(myArray); // Output: [ 12, 13, 14, 6, 7 ]
+
+// Test Case 3
+var myArray = [1, 2, 3, 4, 5];
+myArray = processArray(myArray, function (a) {
+  return a * a;
+});
+console.log(myArray); // Output: [ 1, 4, 9, 16, 25 ]
+```
+## Moving Zeros To The End
+[Description](https://www.codewars.com/kata/52597aa56021e91c93000cb0)
+``` Javascript
+function moveZeros(arr) {
+  let nonZero = arr.filter(x => x !== 0);
+  let zeros = arr.filter(x => x === 0);
+  return nonZero.concat(zeros);
+}
+
+console.log(moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]));
+// Output: [false, 1, 1, 2, 1, 3, "a", 0, 0]
+```
+## Valid Parentheses
+[Description](https://www.codewars.com/kata/52774a314c2333f0a7000688)
+``` Javascript
+function validParentheses(string) {
+  let count = 0;
+  for (let char of string) {
+    if (char === "(") {
+      count++;
+    } else if (char === ")") {
+      count--;
+    }
+    if (count < 0) {
+      return false;
+    }
+  }
+  return count === 0;
+}
+```
+# Jueves 26 de enero de 2023
+##The Hastag Generator
+[Description](https://www.codewars.com/kata/52449b062fb80683ec000024)
+``` Javascript
+function generateHashtag(str) {
+  let words = str.split(" ").filter(word => word);
+  let result = "#" + words.map(word => word[0].toUpperCase() + word.slice(1)).join("");
+  return result.length > 140 || !words.length ? false : result;
+}
+```
+## String Incrementer
+[Description](https://www.codewars.com/kata/54a91a4883a7de5d7800009c)
+``` Javascript
+
+function incrementString(str) {
+  const body = str.slice(0, -1);
+  const lastDigit = str.slice(-1).match(/[0-9]/);
+  return lastDigit === null
+    ? str + "1"
+    : lastDigit != 9
+    ? body + (+lastDigit + 1)
+    : incrementString(body) + "0";
+}
+```
