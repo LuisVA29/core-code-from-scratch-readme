@@ -5,6 +5,7 @@
 </a>
 
 <h1 align="center">Core Code challenges🫡</h1>
+
 - Week 1 : [Algorithms](src/Week01)
 - Week 2 : [Pseudocode](src/Week02)
 - Week 3 : [Pseudocode](src/Week03)
