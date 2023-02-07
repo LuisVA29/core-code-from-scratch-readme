@@ -4,7 +4,7 @@
 
 </a>
 
-<h1 align="center">Core Code challenges🫡</h1>
+<h1 align="center">Core Code challenges</h1> <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 - Week 1 : [Algorithms](src/Week01)
 - Week 2 : [Pseudocode](src/Week02)
