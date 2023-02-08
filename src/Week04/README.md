@@ -1,3 +1,4 @@
+[Return](https://github.com/LuisVA29/core-code-from-scratch-readme)
 # Lunes 12 de diciembre
 ## 1. Average sales and commission
 ``` Python
