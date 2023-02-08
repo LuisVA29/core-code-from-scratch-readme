@@ -1,3 +1,4 @@
+[Return](https://github.com/LuisVA29/core-code-from-scratch-readme)
 # Lunes 9 de enero de 2023
 ## String: substr()
 [Description](https://www.jshero.net/en/koans/stringsubstr.html)
