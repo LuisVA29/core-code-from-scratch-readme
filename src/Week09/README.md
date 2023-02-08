@@ -1,3 +1,4 @@
+[Return](https://github.com/LuisVA29/core-code-from-scratch-readme)
 # Lunes 23 de enero de 2023
 ## "this" is a problem
 [Description](https://www.codewars.com/kata/547c71fdc5b2b38db1000098/train/javascript)
