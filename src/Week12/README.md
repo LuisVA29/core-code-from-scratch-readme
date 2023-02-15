@@ -5,3 +5,14 @@
     _Node.js is an open-source, cross-platform, JavaScript-based runtime environment which enables server-side scripting. It is used to develop networking and        server-side applications._
   - **What is NPM?**<br>
     _NPM (Node Package Manager) is a package manager for JavaScript and Node.js that allows developers to install and manage packages of reusable code._
+2.  **What problem does Node.JS solve (Is there any problem that can be solved with Node.JS 🤔)?** <br>
+    _Node.js solves the challenge of building fast and scalable network applications. It allows developers to use JavaScript, a language they are already familiar with, to build back-end services like web applications, mobile APIs, microservices and real-time applications. Node.js also allows developers to share code between the server and the client, enabling code reusability and faster development cycles._
+4.  **What is the V8 Javascript Engine?** <br>
+    _The V8 Javascript Engine is an open source high-performance Javascript engine developed by Google and used in their Chrome web browser. It is used to convert code written in Javascript language into fast machine code, so that webpages might work faster._
+6.  **Is Node.JS really necessary in the Development ecosystem? <br>
+    _Yes, Node.js is necessary in the development ecosystem due to its maintainability, scalability, and the ability to use JavaScript for both the front and back end. Additionally, it provides modules which are organized into JavaScript files and reusable throughout the Node.js application._
+   - **Why not use PHP or Golang? <br>
+        
+5.  **What is the difference between Node.JS and any other browser? <br>
+   - **Are Node.JS and a browser the same? <br>
+6.  **What is NVM and Why is it useful for Node.JS developers? <br>
