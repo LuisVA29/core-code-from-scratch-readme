@@ -11,7 +11,7 @@
     _The V8 Javascript Engine is an open source high-performance Javascript engine developed by Google and used in their Chrome web browser. It is used to convert code written in Javascript language into fast machine code, so that webpages might work faster._<br>
 4.  **Is Node.JS really necessary in the Development ecosystem?** <br>
     _Yes, Node.js is necessary in the development ecosystem due to its maintainability, scalability, and the ability to use JavaScript for both the front and back end. Additionally, it provides modules which are organized into JavaScript files and reusable throughout the Node.js application._<br>
-   - **Why not use PHP or Golang? <br>
+   - **Why not use PHP or Golang?** <br>
     _PHP is not suitable for web development due to its lack of restrictions and security issues, while Golang is not an object-oriented language and does not provide classes to use. Additionally, Node.js has better server-side I/O performance than both PHP and Golang._<br>
 5.  **What is the difference between Node.JS and any other browser?** <br>
 _Node.js is a JavaScript runtime environment that allows you to run JavaScript code on the server, outside of a browser. Other browsers are used to run JavaScript code inside of a browser._<br>
