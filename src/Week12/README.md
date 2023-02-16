@@ -19,7 +19,7 @@ _Node.js is a JavaScript runtime environment that allows you to run JavaScript c
    _No. Node.js is a JavaScript runtime environment for running server-side code and handling server-side tasks, while a browser is used for viewing and interacting with webpages and applications._<br>
 6.  **What is NVM and Why is it useful for Node.JS developers?** <br>
 _Node Version Manager (NVM) is a tool used to manage multiple active Node.js versions, allowing developers to quickly install and use different versions of Node.js via the command line. It also helps keep developers away from errors and switch between different versions of Node on a per-shell basis._
-## Node.JS Module System
+## Node.JS Module System Core Understanding 
 1. **What is a Javascript Module?**
 _A Javascript Module is a piece of pre-written code that can be reused in other programs._
 3. **Why are Javascript Modules necessary?**
@@ -30,7 +30,8 @@ _The module standards available in Node.JS are ESModules and CommonJS modules._
 _The main difference between ESModules and CommonJS modules is that ESModules use static imports and exports, while CommonJS modules use require and module.exports._
 6. **Which types of modules exist in Node.JS?**
 _The types of modules that exist in Node.JS are ESModules, CommonJS modules, and JSON modules._
-## Node.JS Hello World - Practice
+## Node.JS Hello World! - Practice
+- [Project](src/app.js) 
 0. **Why do we run the npm init command and not node init to create a new Node.JS project?** <br>
     _Npm init is used to create a package.json file for a Node.JS project, which is used for configuration. Node init is not a valid command._
 1. **When you entered the npm init command and answered the questions you saw in the terminal, a new file called packacke.json was generated.**
