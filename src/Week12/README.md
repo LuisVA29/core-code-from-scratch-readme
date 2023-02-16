@@ -39,3 +39,5 @@ _The types of modules that exist in Node.JS are ESModules, CommonJS modules, and
 _The package.json file is a manifest file that describes the attributes and dependencies of the project._
     - **Why is this file generated?**
 _This file is generated to provide a consistent way to manage and track all the information associated with a project, including its dependencies and versions._
+## Node.JS Module System - Practice
+- [Project](src/README.md) 
