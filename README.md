@@ -16,3 +16,5 @@
 - Week 8 : [JavaScript](src/Week08)
 - Week 9 : [JavaScript](src/Week09)
 - Week 10 : [JavaScript](src/Week10)
+- Week 11 : [React](src/Week11)
+- Week 12 : [Node](src/Week12)
