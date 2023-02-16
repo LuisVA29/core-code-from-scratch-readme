@@ -43,54 +43,58 @@ _This file is generated to provide a consistent way to manage and track all the 
 - [Node.JS Module System (Solution)](src/README.md) 
 # Miércoles 15 de febrero de 2023
 ## Client-Server Model
-1. What is a Server? <br>
+1. **What is a Server?** <br>
 _A server is a computer or program that distributes resources or supplies services to other computers or programs (known as clients) that are connected across a network._
-2. What is a Client? <br>
+2. **What is a Client?** <br>
 _A client is a computer or program that requests services or resources from a server over a network._
-3. Is a server just another physical computer? <br>
+3. **Is a server just another physical computer?** <br>
 _Yes, a server is just another physical computer._
-- Why do we refer to a certain class of applications as Servers? <br>
+- **Why do we refer to a certain class of applications as Servers?** <br>
 _We refer to a certain class of applications as servers because they provide services to other computers on a network._
-- What is the difference? <br>
+- **What is the difference?** <br>
 _The main difference between a server and a client is that a server provides services or resources to clients, while a client requests services or resources from a server._
-4. Is there any similarity between human communication and the client-server model? <br>
+4. **Is there any similarity between human communication and the client-server model?** <br>
 _Yes, there is a similarity between human communication and the client-server model. Both are based on exchanging information in a two-way communication system, where one party ("the client") requests information or a service from another ("the server") and the server provides it._
-- List some examples <br>
+- **List some examples** <br>
 _A person ordering food at a restaurant (client) and the waiter delivering the food (server), or a person making a phone call (client) and the other person answering the call (server)._
-5. Is the client-server model applicable only to the Web? <br>
+5. **Is the client-server model applicable only to the Web?** <br>
 _No, the client-server model can be applied to many different types of applications. It is most commonly used in applications like web services, web applications, email, file sharing, and remote computer access._
-- Do desktop applications use the client-server model? <br>
+- **Do desktop applications use the client-server model?** <br>
 _Yes, desktop applications can use the client-server model, such as a messaging application that connects to a messaging server to send and receive messages._
-- Can you mention any other example of this model outside the Web? <br>
+- **Can you mention any other example of this model outside the Web?** <br>
 _Other instances of the client-server model that are not limited to the Web, such as servers for email, files, and databases._
 ## HTTP Core Understanding
-1. What is HTTP?
-2. What is a Communication Protocol?
-   - Do humans use communication protocols?
-3. What is a Request in HTTP?
-4. What is a Response in HTTP?
-5. What is an HTTP method?
-6. What are HTTP request headers?
+1. **What is HTTP?** <br> _HTTP (Hypertext Transfer Protocol) is a protocol used for communications between servers and web clients. It is the foundation for data communication for the World Wide Web. HTTP allows clients (e.g. web browsers) to communicate with servers that host websites and sends and receives information in the form of messages._
+2. **What is a Communication Protocol?** <br> _A communication protocol is a set of rules that govern how two or more entities communicate with each other. These rules define how data is transmitted and include message types, transmission sequences, error handling, and more._
+   - **Do humans use communication protocols?** <br> _Yes, humans use communication protocols._
+3. **What is a Request in HTTP?** <br> _A request in HTTP is a message sent from a client to a server asking for some sort of information or resource._
+4. **What is a Response in HTTP?** <br> _In HTTP, a response is a message sent from a server in response to a client's request. It typically consists of a status line, headers, and a message body._
+5. **What is an HTTP method?** <br> _HTTP methods are the actions most commonly used by clients to interact with a web server. Common methods are GET, POST, PUT, and DELETE._
+6. **What are HTTP request headers?** <br> _HTTP request headers are fields of information sent by a user agent (such as a web browser) to a server to provide context and additional information about the request. They contain metadata associated with the request, such as the requested resource, the user agent submitting the request, authentication details, and other information._
 ## APIs Core Understanding
-1. What is an API?
-2. What is a Protocol?
-3. Is the term API only applicable to the communication of programs over the Internet?
-4. Why is structured communication between two programs important?
-   - Do we humans use APIs when communicating without technology?
-5. Is an API just another program or a standard?
-6. Do you know any API? Can you list at least 5 examples of APIs?
+1. **What is an API?** <br> _An API (Application Programming Interface) is a set of functions, protocols, and tools that developers can use to build software applications. APIs allow developers to access data and functionality from other applications, services, and databases, making it easier to combine and mash up data from multiple sources._
+2. **What is a Protocol?** <br> _A protocol is a set of rules and standards that define how information is exchanged between two or more devices across a network._
+3. **Is the term API only applicable to the communication of programs over the Internet?** <br> _No, the term API is not only applicable to the communication of programs over the internet. An API is a type of software interface that enables two or more computer programs to communicate with each other._
+4. **Why is structured communication between two programs important?** <br> _Structured communication between two programs is important because it enables efficient and reliable data exchange between the two systems. Structured communication also helps to ensure data integrity, security and consistency._
+   - **Do we humans use APIs when communicating without technology?** <br> _No, humans do not use APIs when communicating without technology. APIs are used to enable communication between two systems or applications, and are not necessary for human-to-human communication._
+5. **Is an API just another program or a standard?** <br> _A API is neither a program nor a standard. APIs are an interface that allow separate applications and systems to communicate with each other, regardless of the platform or language._
+6. **Do you know any API? Can you list at least 5 examples of APIs?** 
+    _1. Google Maps API_
+    _2. Amazon Web Services (AWS) API_
+    _3. Twitter API_
+    _4. Facebook API_
+    _5. Stripe API_
 ## From JSON to REST
-1. What is JSON?
-   - Is JSON the same as a plain Javascript object?
-2. What is REST?
-   - Is REST a programming language, framework, technology, or architecture pattern?
-3. What is a Resource in REST?
-   - What is a resource identifier?
-4. How are HTTP and REST related?
-   - What HTTP methods does REST use within its architecture rules?
-   - Why do we use HTTP methods in REST and how do they relate to resources?
-5. Is REST the same as HTTP?
+1. **What is JSON?** <br> _JSON (JavaScript Object Notation) is a text-based, human-readable data interchange format used primarily to transmit data between a server and web application, as an alternative to XML. It is based on a subset of the JavaScript programming language and is used as a data format for many web services and APIs._
+   - **Is JSON the same as a plain Javascript object?** <br> _No, JSON (JavaScript Object Notation) is a lightweight data-interchange format, but is it not the same as a plain JavaScript object. JSON is based on structural conventions from JavaScript objects and has a syntax that is recognizable to JavaScript, but is not exactly the same._
+2. **What is REST?** <br> _REST (Representational State Transfer) is a type of software architecture that allows different applications to communicate with each other over the web using existing web standards such as HTTP. It is a popular way to access and modify data, and is a powerful alternative to SOAP._
+   - **Is REST a programming language, framework, technology, or architecture pattern?** <br> _REST is a software architectural style because it provides a set of design rules to create stateless services that are scalable, extensible, and modifiable._
+3. **What is a Resource in REST?** <br> _A resource in REST is an entity or object that can be accessed by an HTTP request, typically through a RESTful API. A resource typically represents a single data object, such as a customer, product, or order._
+   - **What is a resource identifier?** <br> _A resource identifier is a unique identifier for a resource, such as web pages, digital images, web services, and databases. It can be used as a reference to quickly locate the specified resource._
+4. **How are HTTP and REST related?** <br> _HTTP and REST are related in that REST is an architectural style that can be implemented using HTTP, but it is not necessarily tied to HTTP. REST is a simple way to organize interactions between independent systems, inspiring the design of web services, such as those using HTTP._
+   - **What HTTP methods does REST use within its architecture rules?** <br> _REST uses the HTTP methods GET, POST, PUT, DELETE, HEAD, and OPTIONS to perform operations on resources. HTTP is a connectionless protocol that is stateless and can transmit any data._
+   - **Why do we use HTTP methods in REST and how do they relate to resources?** <br> _They are used to create a uniform interface for distributed systems that rely on predefined methods_
+5. **Is REST the same as HTTP?** <br> _No, REST and HTTP are not the same thing. HTTP stands for HyperText Transfer Protocol and is a way to transfer files, while REST is an architectural style that doesn't care about the building materials per say._
 ## REST API Clients
-   - Postman only works with REST APIs?
-
-   - Is there an alternative to Postman?
+   - **Postman only works with REST APIs?** <br> _No, Postman can work with any type of API, including SOAP, GraphQL, and gRPC._
+   - **Is there an alternative to Postman?** <br> _Yes, there are many alternatives to Postman, such as Insomnia, cURL, REST Client (for VS Code), Paw, SoapUI, HTTPRequester, OkHttp, and Advanced REST Client._
