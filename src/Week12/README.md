@@ -31,7 +31,7 @@ _The main difference between ESModules and CommonJS modules is that ESModules us
 6. **Which types of modules exist in Node.JS?**
 _The types of modules that exist in Node.JS are ESModules, CommonJS modules, and JSON modules._
 ## Node.JS Hello World! - Practice
-- [Project](src/README.md) 
+- [Node.JS Hello World! (Solution)](src/README.md) 
 0. **Why do we run the npm init command and not node init to create a new Node.JS project?** <br>
     _Npm init is used to create a package.json file for a Node.JS project, which is used for configuration. Node init is not a valid command._
 1. **When you entered the npm init command and answered the questions you saw in the terminal, a new file called packacke.json was generated.**
@@ -40,4 +40,4 @@ _The package.json file is a manifest file that describes the attributes and depe
     - **Why is this file generated?**
 _This file is generated to provide a consistent way to manage and track all the information associated with a project, including its dependencies and versions._
 ## Node.JS Module System - Practice
-- [Project](src/README.md) 
+- [Node.JS Module System (Solution)](src/README.md) 
