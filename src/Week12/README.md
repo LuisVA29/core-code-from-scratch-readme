@@ -43,6 +43,54 @@ _This file is generated to provide a consistent way to manage and track all the 
 - [Node.JS Module System (Solution)](src/README.md) 
 # Miércoles 15 de febrero de 2023
 ## Client-Server Model
+1. What is a Server? <br>
+_A server is a computer or program that distributes resources or supplies services to other computers or programs (known as clients) that are connected across a network._
+2. What is a Client? <br>
+_A client is a computer or program that requests services or resources from a server over a network._
+3. Is a server just another physical computer? <br>
+_Yes, a server is just another physical computer._
+- Why do we refer to a certain class of applications as Servers? <br>
+_We refer to a certain class of applications as servers because they provide services to other computers on a network._
+- What is the difference? <br>
+_The main difference between a server and a client is that a server provides services or resources to clients, while a client requests services or resources from a server._
+4. Is there any similarity between human communication and the client-server model? <br>
+_Yes, there is a similarity between human communication and the client-server model. Both are based on exchanging information in a two-way communication system, where one party ("the client") requests information or a service from another ("the server") and the server provides it._
+- List some examples <br>
+_A person ordering food at a restaurant (client) and the waiter delivering the food (server), or a person making a phone call (client) and the other person answering the call (server)._
+5. Is the client-server model applicable only to the Web? <br>
+_No, the client-server model can be applied to many different types of applications. It is most commonly used in applications like web services, web applications, email, file sharing, and remote computer access._
+- Do desktop applications use the client-server model? <br>
+_Yes, desktop applications can use the client-server model, such as a messaging application that connects to a messaging server to send and receive messages._
+- Can you mention any other example of this model outside the Web? <br>
+_Other instances of the client-server model that are not limited to the Web, such as servers for email, files, and databases._
 ## HTTP Core Understanding
+1. What is HTTP?
+2. What is a Communication Protocol?
+   - Do humans use communication protocols?
+3. What is a Request in HTTP?
+4. What is a Response in HTTP?
+5. What is an HTTP method?
+6. What are HTTP request headers?
+## APIs Core Understanding
+1. What is an API?
+2. What is a Protocol?
+3. Is the term API only applicable to the communication of programs over the Internet?
+4. Why is structured communication between two programs important?
+   - Do we humans use APIs when communicating without technology?
+5. Is an API just another program or a standard?
+6. Do you know any API? Can you list at least 5 examples of APIs?
 ## From JSON to REST
+1. What is JSON?
+   - Is JSON the same as a plain Javascript object?
+2. What is REST?
+   - Is REST a programming language, framework, technology, or architecture pattern?
+3. What is a Resource in REST?
+   - What is a resource identifier?
+4. How are HTTP and REST related?
+   - What HTTP methods does REST use within its architecture rules?
+   - Why do we use HTTP methods in REST and how do they relate to resources?
+5. Is REST the same as HTTP?
 ## REST API Clients
+   - Postman only works with REST APIs?
+
+   - Is there an alternative to Postman?
