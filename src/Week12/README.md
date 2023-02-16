@@ -41,3 +41,8 @@ _The package.json file is a manifest file that describes the attributes and depe
 _This file is generated to provide a consistent way to manage and track all the information associated with a project, including its dependencies and versions._
 ## Node.JS Module System - Practice
 - [Node.JS Module System (Solution)](src/README.md) 
+# Miércoles 15 de febrero de 2023
+## Client-Server Model
+## HTTP Core Understanding
+## From JSON to REST
+## REST API Clients
