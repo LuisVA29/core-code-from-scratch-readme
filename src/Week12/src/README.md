@@ -7,3 +7,8 @@
 [index.js](Node/index.js) <br>
 [operations.js](Node/operations.js) <br>
 [package.json](Node/package.json) <br>
+# Jueves 16 de febrero de 2023
+- **Express.JS Core Understanding** <br>
+[app.js](Node/express.js) <br>
+[package.json](Node/package.json) <br>
+[package-lock.json](Node/package-lock.json) <br>
