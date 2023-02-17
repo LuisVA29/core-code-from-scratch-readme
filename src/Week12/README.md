@@ -98,3 +98,6 @@ _Other instances of the client-server model that are not limited to the Web, suc
 ## REST API Clients
    - **Postman only works with REST APIs?** <br> _No, Postman can work with any type of API, including SOAP, GraphQL, and gRPC._
    - **Is there an alternative to Postman?** <br> _Yes, there are many alternatives to Postman, such as Insomnia, cURL, REST Client (for VS Code), Paw, SoapUI, HTTPRequester, OkHttp, and Advanced REST Client._
+# Jueves 16 de febrero de 2023
+## Express.JS Core Understanding
+2. [Express JS Hello World]()
