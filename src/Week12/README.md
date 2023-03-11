@@ -102,4 +102,4 @@ _Other instances of the client-server model that are not limited to the Web, suc
 ## Express.JS Core Understanding
 0. [Express JS Hello World](src/README.md)
 1. [Forrest Gump Ping-Pong API](src/README.md)
-2. [Forrest Gump Ping-Pong API](src/README.md)
+2. [Delayed Response API](src/README.md)
